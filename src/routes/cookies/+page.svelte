@@ -1,7 +1,3 @@
-<script>
-  export const prerender = true;
-</script>
-
 <svelte:head>
   <title>Cookie Policy | Nextprime Labs</title>
   <meta name="description" content="Cookie Policy for Nextprime Labs" />
@@ -14,12 +10,12 @@
     <p class="text-white/70 text-sm sm:text-base">How Nextprime Labs uses cookies and similar technologies.</p>
   </header>
 
-  <section class="space-y-4">
+  <section id="about" class="space-y-4">
     <h2 class="text-2xl font-semibold poppins text-white">1. What Are Cookies?</h2>
     <p class="text-white/80">Cookies are small text files stored on your device to improve website functionality and performance.</p>
   </section>
 
-  <section class="space-y-4">
+  <section id="services" class="space-y-4">
     <h2 class="text-2xl font-semibold poppins text-white">2. Types of Cookies We Use</h2>
     <ul class="list-disc list-inside space-y-2 text-white/80">
       <li><strong>Essential Cookies:</strong> Required for the website to function properly.</li>

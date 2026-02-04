@@ -1,7 +1,3 @@
-<script>
-  export const prerender = true;
-</script>
-
 <svelte:head>
   <title>Terms of Service | Nextprime Labs</title>
   <meta name="description" content="Terms of Service for Nextprime Labs" />

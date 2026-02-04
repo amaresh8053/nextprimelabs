@@ -2,8 +2,8 @@
   export let y;
 
   export let tabs = [
-    { name: "Services", link: "#services" },
-    { name: "About", link: "#about" },
+        { name: "Services", link: "/#services" },
+        { name: "About", link: "/#about" },
     { name: "Blog", link: "https://blog.nextprime.io" }
   ];
 </script>

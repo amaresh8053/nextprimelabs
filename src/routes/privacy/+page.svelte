@@ -1,7 +1,3 @@
-<script>
-  export const prerender = true;
-</script>
-
 <svelte:head>
   <title>Privacy Policy | Nextprime Labs</title>
   <meta name="description" content="Privacy Policy for Nextprime Labs" />
