@@ -4,7 +4,7 @@
   export let tabs = [
         { name: "Services", link: "/#services" },
         { name: "About", link: "/#about" },
-    { name: "Blog", link: "https://blog.nextprime.io" }
+        { name: "Blog", link: "/blog" }
   ];
 </script>
 
@@ -20,22 +20,19 @@
         </span>
     </a>
     <div class="hidden items-center gap-4 sm:flex">
-        {#each tabs as tab, index}
+        {#each tabs as tab}
             <a
                 href={tab.link}
                 class="text-sm sm:text-base font-medium text-white/85 hover:text-violet-400 duration-200"
-                target={index === 2 ? "_blank" : ""}
             >
                 <p>{tab.name}</p>
             </a>
         {/each}
-        <button
-            class="blueShadow relative overflow-hidden rounded-full bg-white px-5 py-2 text-slate-950 font-semibold shadow-lg"
+        <a
+            href="mailto:hello@nextprime.io?subject=Getting%20in%20touch"
+            class="blueShadow relative overflow-hidden rounded-full bg-white px-5 py-2 text-slate-950 font-semibold shadow-lg hover:bg-violet-100 duration-200"
         >
-            <div
-                class="absolute top-0 right-full h-full w-full bg-violet-400 opacity-20 duration-200 group-hover:translate-x-full"
-            ></div>
             <span class="relative z-10">Get in touch</span>
-        </button>
+        </a>
     </div>
 </header>

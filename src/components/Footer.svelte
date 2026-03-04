@@ -9,13 +9,13 @@
           <p class="text-white/70 text-sm">Innovative AI & Cloud solutions for tomorrow's challenges</p>
         </div>
         <div class="flex gap-4">
-          <a href="https://github.com" target="_blank" aria-label="Visit our GitHub" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
+          <a href="https://github.com/nextprimelabs" target="_blank" rel="noopener noreferrer" aria-label="Visit our GitHub" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://linkedin.com" target="_blank" aria-label="Visit our LinkedIn" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
+          <a href="https://linkedin.com/company/nextprimelabs" target="_blank" rel="noopener noreferrer" aria-label="Visit our LinkedIn" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://twitter.com" target="_blank" aria-label="Visit our Twitter" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
+          <a href="https://twitter.com/nextprimelabs" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter" class="text-white/60 hover:text-violet-400 duration-200 text-lg">
             <i class="fa-brands fa-twitter"></i>
           </a>
         </div>

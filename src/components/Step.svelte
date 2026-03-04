@@ -14,4 +14,12 @@
     {step.name}
   </h3>
   {@render children()}
+  {#if step.link}
+    <a
+      href={step.link}
+      class="inline-flex items-center justify-center gap-1 text-violet-400 hover:text-violet-300 text-sm font-semibold duration-200 mt-auto"
+    >
+      Read more <i class="fa-solid fa-arrow-right text-xs"></i>
+    </a>
+  {/if}
 </div>

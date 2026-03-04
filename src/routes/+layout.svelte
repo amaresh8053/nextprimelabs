@@ -23,7 +23,7 @@
     }
 </script>
 
-<svelte:window on:scroll={handleScroll} bind:innerWidth bind:innerHeight />
+<svelte:window onscroll={handleScroll} bind:innerWidth bind:innerHeight />
 
 <svelte:head>
     <link rel="icon" href={favicon} />
@@ -37,7 +37,7 @@
         }
     >
         <button
-            on:click={goTop}
+            onclick={goTop}
             class="rounded-full bg-violet-600 hover:bg-violet-500 text-white px-4 py-4 cursor-pointer aspect-square grid place-items-center shadow-lg hover:shadow-xl duration-200 blueShadow"
             title="Scroll to top"
         >
@@ -45,7 +45,7 @@
         </button>
     </div>
 
-    <Header {y} {innerHeight} />
+    <Header {y} />
 
     {@render children()}
 
