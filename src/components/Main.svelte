@@ -27,19 +27,19 @@
 
   let capabilities = [
     {
-      name: "AI & Cloud Experts",
+      name: "Built for Practical Outcomes",
       description:
-        "Our team consists of seasoned engineers with deep expertise in machine learning, cloud architecture, and distributed systems. We stay at the forefront of AI innovation and cloud-native technologies.",
+        "We focus on the parts that move your business forward: faster launches, lower infra overhead, and dependable systems that are easy for your team to operate.",
     },
     {
-      name: "Production-Ready Excellence",
+      name: "Fast Delivery, Clean Operations",
       description:
-        "Every solution we deliver is battle-tested, scalable, and optimized for performance. We believe in meticulous engineering and follow industry best practices for reliability and security.",
+        "From provisioning to deployment, we automate repeatable workflows so your products ship quickly without creating maintenance debt.",
     },
     {
-      name: "End-to-End Partnership",
+      name: "Clear Scope, Transparent Support",
       description:
-        "From initial consultation through deployment and beyond, we work closely with your team. Transparent communication and collaborative problem-solving are core to our approach.",
+        "You get clear ownership, straightforward communication, and support aligned to your roadmap—not vague promises or bloated service bundles.",
     },
   ];
 
@@ -84,32 +84,30 @@
       <p class="text-base sm:text-lg md:text-xl text-white/80">
         We build intelligent, scalable cloud solutions powered by cutting-edge AI. From machine learning pipelines to enterprise infrastructure, we transform your vision into reality using modern tech like Python, TensorFlow, Kubernetes, AWS, and real-time data platforms.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 mx-auto lg:mx-0">
+      <div class="flex justify-center lg:justify-start">
         <a
           href="#services"
-          class="blueShadow text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 font-semibold text-center"
+          class="blueShadow text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-8 py-3 group rounded-full bg-slate-900/50 text-white font-semibold text-center border border-white/20"
         >
-          <div
-            class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-          ></div>
-          <span class="relative z-10">Explore Our Work →</span>
-        </a>
-        <a
-          href="mailto:hello@nextprime.io?subject=Demo%20Request"
-          class="text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full border-2 border-white/40 text-white font-semibold hover:border-violet-300 duration-200 text-center"
-        >
-          <span class="relative z-10">Schedule a Demo</span>
+          <span class="absolute inset-0 bg-gradient-to-r from-violet-400 via-fuchsia-500 to-orange-300 opacity-0 group-hover:opacity-100 transition duration-400 ease-out"></span>
+          <span class="absolute inset-[1px] rounded-full bg-slate-900/90 group-hover:bg-transparent transition duration-400 ease-out"></span>
+          <span class="relative z-10 flex items-center justify-center gap-3 uppercase tracking-wide text-sm sm:text-base">
+            Explore Our Work
+            <i class="fa-solid fa-arrow-right text-sm"></i>
+          </span>
         </a>
       </div>
     </div>
-    <div class="relative grid place-items-center">
+    <div class="relative grid place-items-center overflow-hidden">
+      <div class="absolute inset-0 m-auto h-64 w-64 rounded-full bg-violet-500/25 blur-3xl"></div>
       <img
-        src="/images/brain.png"
+        src="/images/ai-in.webp"
         alt="Nextprime AI illustration"
-        class="max-h-[95vh] w-full max-w-[820px] object-contain rounded-2xl shadow-2xl drop-shadow-[0_28px_110px_rgba(109,40,217,0.35)]"
+        class="relative z-10 max-h-[95vh] w-full max-w-[860px] object-contain opacity-95 mix-blend-screen drop-shadow-[0_28px_110px_rgba(109,40,217,0.25)]"
         loading="eager"
         decoding="async"
       />
+      <div class="pointer-events-none absolute bottom-0 left-0 z-20 h-28 w-full bg-gradient-to-b from-transparent via-slate-900/65 to-slate-900"></div>
     </div>
   </section>
 
@@ -143,12 +141,12 @@
     >
       <h6 class="text-lg sm:text-xl md:text-2xl text-violet-300">Why Choose Nextprime</h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-white">
-        We are <span class="poppins text-violet-300">innovators</span> & <span class="poppins text-violet-300">builders</span>
+        Built for <span class="poppins text-violet-300">speed</span>, <span class="poppins text-violet-300">clarity</span> & <span class="poppins text-violet-300">results</span>
       </h3>
     </div>
 
     <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl text-white">
-      What makes us different . . .
+      Why teams choose Nextprime
     </p>
 
     <div class="flex flex-col gap-16 w-full mx-auto max-w-[900px]">
@@ -167,56 +165,6 @@
           </div>
         </div>
       {/each}
-    </div>
-
-    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins text-white mt-8">
-      The <span class="text-violet-300">Complete</span> Stack
-    </h5>
-
-    <div class="flex flex-col overflow-x-auto gap-10 max-w-full mx-auto w-full px-4">
-      <table class="bg-white/5 text-white rounded-lg border border-white/10 text-center mx-auto w-full max-w-2xl">
-        <thead class="border-b border-violet-700/40">
-          <tr>
-            <th class="p-3 text-left text-sm font-semibold"></th>
-            <th class="whitespace-nowrap p-3 px-4 text-sm font-semibold">Competitor A</th>
-            <th class="whitespace-nowrap p-3 px-4 text-sm font-semibold">Competitor B</th>
-            <th class="whitespace-nowrap p-3 px-4 text-sm font-semibold">Competitor C</th>
-            <th class="bg-violet-700 text-white whitespace-nowrap p-4 px-6 rounded-tr-lg text-sm font-semibold">
-              Nextprime
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="border-b border-white/10">
-            <td class="border-r border-white/10 pl-3 pr-4 py-3 font-medium text-sm text-left">AI Expertise</td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-green-400 text-lg"></i></td>
-          </tr>
-          <tr class="border-b border-white/10">
-            <td class="border-r border-white/10 pl-3 pr-4 py-3 font-medium text-sm text-left">Cloud Native</td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-check text-green-400 text-lg"></i></td>
-          </tr>
-          <tr class="border-b border-white/10">
-            <td class="border-r border-white/10 pl-3 pr-4 py-3 font-medium text-sm text-left">24/7 Support</td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-green-400 text-lg"></i></td>
-          </tr>
-          <tr>
-            <td class="border-r border-white/10 pl-3 pr-4 py-3 font-medium text-sm text-left">Custom Solutions</td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-check text-gray-400"></i></td>
-            <td><i class="fa-solid fa-xmark text-red-500"></i></td>
-            <td><i class="fa-solid fa-check text-green-400 text-lg"></i></td>
-          </tr>
-        </tbody>
-      </table>
     </div>
 
     <p class="mx-auto text-white text-center">Ready to accelerate your AI journey?

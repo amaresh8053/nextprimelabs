@@ -19,11 +19,22 @@
 		<div class="relative z-10">%sveltekit.body%</div>
 		
 		<script>
-			if (typeof particlesJS !== 'undefined') {
-				particlesJS.load("particles-js", "/particles.json", function () {
-					console.log("Particles.js loaded successfully");
-				});
-			}
+			(function initParticles(retries = 20) {
+				const mountNode = document.getElementById("particles-js");
+
+				if (!mountNode) return;
+
+				if (typeof particlesJS === "undefined") {
+					if (retries > 0) {
+						setTimeout(() => initParticles(retries - 1), 100);
+					}
+					return;
+				}
+
+				if (window.pJSDom && window.pJSDom.length > 0) return;
+
+				particlesJS.load("particles-js", "/particles.json");
+			})();
 		</script>
 	</body>
 </html>
