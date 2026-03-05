@@ -38,7 +38,7 @@
     <section class="space-y-4">
       <h2 class="text-2xl font-semibold poppins text-white">What Is Nextprime Cloud Desktop?</h2>
       <p class="leading-relaxed">
-        Nextprime Cloud Desktop is a full Ubuntu desktop environment running on our cloud infrastructure, accessible via your browser or a standard remote desktop client. You get a real Linux machine—not a stripped-down container shell—with persistent storage, a GPU-capable compute tier, and a curated set of tools pre-installed.
+        Nextprime Cloud Desktop is a full Linux desktop environment running on our cloud infrastructure, accessible via your browser or a standard remote desktop client. You get a real Linux machine—not a stripped-down container shell—with persistent storage, a GPU-capable compute tier, and a curated set of tools pre-installed.
       </p>
       <p class="leading-relaxed">
         Spin one up in under 2 minutes. Suspend it when you're done. Resume exactly where you left off. Pay only for the compute time you actually use.
